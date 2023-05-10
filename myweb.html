@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myfitnesswebsite</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bigshot+One&family=Heebo:wght@400;500&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        
+        body{
+            font-family: 'Poppins', sans-serif;
+            margin:0px;
+            padding:0px;
+            color:aliceblue;
+            background:url('training-g73579cfff_1920.jpg')
+            
+        }
+        .left{
+            display:inline-block;
+            position:absolute;
+            left:34px;
+            top:22px;
+           
+            
+
+
+        }
+
+        .left div{
+            text-align: center;
+            justify-content: center;
+        }
+        .left img{
+            width: 120px;
+            height: 89px;
+            filter: invert(100%);
+        }
+      
+            
+        .right{
+            /*Absolute sets with respect to parent,parent hee is header*/
+            display: inline-block;
+            position:absolute;
+            right: 34px;
+            top: 22px;
+        
+            /*This sets relative to parent top means distance from top,left means distance from left and similarly right means distance from right parent*/
+            
+            
+        }
+        
+
+        .mid{
+            display:block;
+            width: 50%;
+            margin: 22px auto;
+            /*margin auto means to automatically align in the center*/
+          
+            text-align: center;
+            padding: 4px 14px;
+            
+
+
+
+        }
+        .navbar{
+            /*When we display inline block it will align whole nav bar into inline but not the lists */
+            display:inline-block;
+
+        }
+        .navbar li{
+            /*this will display navbar lists into inline block*/
+           
+            display:inline-block;
+            font-size: 20px;
+        }
+        .navbar li a
+        {
+            /*this will only change the anchor tags in the css*/
+ color:white;
+ text-decoration:none;/*text decoration none removes all the textslines */
+ padding:34px 20px;
+        }
+        /*Inorder to add a functionality when we touch, it means when class is active or it is pressed */
+        .navbar li a:hover,.navbar li a.active{
+color:rgb(84, 112, 139);
+text-decoration:underline;
+        }
+        .btn{
+            margin: 0px 9px;
+            background-color: black;
+            color:aliceblue;
+            border: 2px solid rgb(108, 152, 219);
+            border-radius: 12px;
+            font-size: 15px;
+            cursor:pointer;
+            
+
+
+        }
+        .btn:hover{
+            /*THIS MEANS WHEN IT IS TOUCHED OR PRESSED IT HOVERS*/
+            color: rgb(73, 73, 220)
+        }
+    
+        
+.container {
+
+       
+        margin: 130px auto;
+        padding: 95px;
+        width: 33%;
+        border-radius: 28px;
+    }
+    .form-group input{
+        text-align: center;
+        display:block;
+        width: 508px;
+        border:2px solid black;
+        margin:11px auto;
+        font-size:25px;
+        border-radius:8px;
+
+
+    }
+    .container h1{
+        font-family: 'Bigshot One', cursive;
+        text-align: center;
+    } 
+    .form-group button{
+        display:block;
+        width: 513px;;
+        height: 35px;
+        margin:2px auto;
+        /*form group class kay button koo target kia soo .form-group button,form group class kay input koo target kia formgroup input kay through*/
+    }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <!--left box for logo-->
+        <div class="left">
+            <img src="fitnesslogo.png">
+           <div>Go Fitness</div> 
+        </div>
+        <!--mid box for navmenu-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="Home">Home</a></li>
+                <li><a href="About us">About us</a></li>
+                <li><a href="Fitness Calculator">Fitness Calculator</a></li>
+                <li><a href="Contact us">Contact us</a></li>
+            </ul>
+        </div>
+        <!--right box for search-->
+        <div class="right">
+            <button class="btn">Search 
+            
+            </button>
+            <button class="btn">Call us now</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Pakistan Now</h1>
+            <form 
+            action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="number" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="" placeholder="Enter your Email Id">
+                </div>
+                <div class="form-group">
+                    <input type="number" name="" placeholder="Enter your Phone Number">
+                </div>
+                <div class="form-group">
+                <button class="btn">Submit</button>
+            </div>
+            </form>
+        
+    
+</body>
+</html>
