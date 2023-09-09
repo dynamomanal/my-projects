@@ -1,6 +1,5 @@
-<h1>Hi this is me Manal</h1>
-<hr> </hr>
-<h4>Visit my Static web Pages</h4>
+
+<h4>Visit Static UI Of these web Pages</h4>
 
 <ol>
 
