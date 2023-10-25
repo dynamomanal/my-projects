@@ -2,19 +2,18 @@
 
 I have Used HTML5, CSS3, and Bootstrap to build these webpages.
 
-## Web Design Agency
+## [Web Design Agency](/00-website-design-agency/index.html)
 
-![image](https://github.com/dynamomanal/my-projects/assets/133088089/765c8b67-ecf4-46b2-bc8e-312a2bcdbfd2)
+![](./previews/00-website-design-agency-preview.png)
 
-## [Email Website](/emailtemplatefinal.html)
+## [Email Website](/01-email-website/index.html)
 
-![image](https://github.com/dynamomanal/my-projects/assets/133088089/d858a0f2-1ca1-4254-bb8b-ff2cffca26ec)
+![](./previews/01-email-template-preview.png)
 
-## [Gym Website](/myweb.html)
+## [Gym Website](/02-gym-website/index.html)
 
-![](https://github.com/dynamomanal/my-projects/assets/133088089/3cdcd603-c84f-4bb9-ac6a-b466a938663a)
-
+![](./previews/02-gym-website-preview.png)
 
 ## Navigation Menubar
 
-![](https://github.com/dynamomanal/my-projects/assets/133088089/1553e159-735a-48e3-a0b0-e514d062d126)
+![](./previews/03-navigation-menubar-preview.png)
